@@ -1,0 +1,82 @@
+body{
+    background-color: rgb(40, 211, 125);
+}
+
+#titulo{
+    font-size: 50px;
+    text-align: center;
+}
+#contReloj{
+    align-items: center;
+    width: fit-content;
+    margin-top: 60px;
+    margin-left: 34%;
+}
+#reloj{
+    font-size: 20px;
+    text-align: center;
+    background-color: antiquewhite;
+    border: 0;
+    background-color: transparent;
+}
+
+#nombre{
+    padding-top: 86px;
+    text-align: center;
+}
+
+#inputNombre{
+    margin: 0;
+    padding:0;
+    height: 16px;
+}
+#capturarNombre{
+    width: 500px;
+    height: 200px;
+    background-color: rgb(177, 177, 228);
+    margin: auto;
+}
+#containerButtonNombre{
+    margin: auto;
+   
+    height: fit-content;
+    width: fit-content;
+    margin-left: 265px;
+}
+#buttonContinuar{
+    position: static;   
+    border-radius: 30px;
+    height: 30px;
+}
+#containerGame{
+    display: none;
+    width: 500px;
+    height: 386px;
+    background-color: rgb(177, 177, 228);
+    margin: auto;
+}
+
+#containerGame p{
+    padding-top: 30px;
+    font-family: 'Courier New', Courier, monospace;
+    color: cornsilk;
+}
+
+#alinearInput{
+    height: auto;
+    width: auto;
+    margin: auto;
+    text-align: center;
+   
+}
+#inputNum{
+    height: 50px;
+    width: 223px;
+    position: relative;
+    display: inline-block;
+}   
+button{
+    position: relative;
+    left: 210px;
+    top: 15px;
+}

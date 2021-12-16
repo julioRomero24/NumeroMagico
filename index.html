@@ -1,0 +1,47 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Número mágico</title>
+   
+    <script src="scriptNombre.js"></script>
+    <script src="script.js"></script>
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.5.1/jquery.min.js"></script>
+    <link rel="stylesheet" href="style.css">
+</head>
+
+<body>
+
+    <p id="titulo">Número mágico</p>
+
+    <div id="capturarNombre">
+        <p id="nombre">ingresu su nombre <input type="text" id="inputNombre"></p>
+        <div id="containerButtonNombre">
+            
+            <button onclick="mostrarJuego()" id="buttonContinuar">continuar</button>
+        </div>
+
+    </div>
+
+    <div id="containerGame">
+        <p id="ponerNombre"> </p>
+        
+        <div id="alinearInput">
+            <input type="text"  id="inputNum">
+            
+            
+        </div>
+        <button onclick="inicio()">Adivinar!</button>
+
+        <form id="contReloj" name="form_reloj">
+            <input id="reloj" type="text" name="reloj" size="10">
+        </form>
+        <body onload="mueveReloj()"></body>
+
+        
+    </div>
+    
+</body>
+</html>
